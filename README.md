@@ -15,17 +15,21 @@ python client.py -m [MAC_ADDRESS]
 ```
 Replace `[MAC_ADDRESS]` with the Bluetooth address of the server.
 
-Server
-server.py
+## Server
+
+### server.py
 
 The server.py script sets up a Bluetooth server and waits for clients to connect. Once connected, it allows bidirectional communication with the client.
-Usage
 
-bash
+#### Usage
+
+```bash
 
 python server.py -m [MAC_ADDRESS]
 
-Replace [MAC_ADDRESS] with the Bluetooth address you want the server to bind to.
+```
+
+Replace `[MAC_ADDRESS]` with the Bluetooth address you want the server to bind to.
 Dependencies
 
 Both scripts depend on the following Python packages:
